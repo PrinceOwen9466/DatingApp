@@ -14,8 +14,6 @@ namespace DatingApp.API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        readonly DataContext _context;
-
         #region Properties
 
         DataContext Context { get; }
